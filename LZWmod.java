@@ -45,6 +45,7 @@ public class LZWmod {
                   st.put(current, code++);
               //TODO: reset current - done
               current = new StringBuilder();
+              current.append(c);
             }
         }
 
